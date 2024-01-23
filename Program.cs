@@ -27,7 +27,7 @@ class Program
         elseif(dia < 2 & horas < 2 & minuto >= 2){
             Console.WriteLine(dia + " dia" + horas + "hora" + minuto + " minutos")
         }
-        elseif(dia < 2 & horas >= 2 & minuto < 2){
+        else(dia < 2 & horas >= 2 & minuto < 2){
             Console.WriteLine(dia + " dia" + horas + "horas" + minuto + " minuto")
         }
 
