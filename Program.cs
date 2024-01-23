@@ -11,9 +11,10 @@ class Program
         decimal dia = Math.Truncate(d);
         Console.WriteLine(dia);
         decimal h  =min % 1440;
-        decimal horas = Math.Truncate(h);
+        decimal ho = 60 * h;
+        decimal horas = Math.Truncate(ho);
         Console.WriteLine(horas);
-        decimal m = h % horas;
+        decimal m = ho % horas;
         decimal  minuto = m * 60;
         Console.WriteLine(minuto);
         
